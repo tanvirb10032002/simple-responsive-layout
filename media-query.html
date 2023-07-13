@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+            .container{
+                grid-template-columns: repeat(2,  1fr);
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- .container>.food*12>img[src="assats/food.jpg"]+h3{Food Itam - $}+p{Price: \$$00}+p>lorem25^btn{Buy Now} -->
+    <div class="container">
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 1</h3>
+            <p>Price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel non cumque quis totam veniam, ea cum ad enim suscipit laudantium, vero quaerat neque quae.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 2</h3>
+            <p>Price: $200</p>
+            <p>Eum mollitia quam sit repellendus sint minima, cumque laborum earum voluptatem quaerat delectus cupiditate soluta illum, inventore veniam provident nesciunt ipsa reprehenderit consectetur aliquam officia.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 3</h3>
+            <p>Price: $300</p>
+            <p>Fugit, atque qui praesentium illum dignissimos harum eos repellat! Placeat sit cum quisquam atque quos voluptatibus aspernatur natus fugit fuga dolorum, molestiae, amet, culpa excepturi.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 4</h3>
+            <p>Price: $400</p>
+            <p>Minima recusandae quos tempora rerum doloribus necessitatibus reprehenderit ex repellat ullam rem, odit ipsum quas laudantium, possimus iure id numquam, nihil consequuntur! Cupiditate, placeat ab!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 5</h3>
+            <p>Price: $500</p>
+            <p>Facere fugit velit officia recusandae! Dolore, laudantium aperiam. Reprehenderit cumque ipsa laudantium autem corrupti suscipit sed? Praesentium earum dolor quae ex, dolore nobis deleniti vitae.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 6</h3>
+            <p>Price: $600</p>
+            <p>Cum dignissimos a repudiandae? Optio nihil excepturi, provident debitis repellat quo quaerat quasi ut amet sed et fugit. Aut, officiis aspernatur fugiat dolore tenetur reiciendis!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 7</h3>
+            <p>Price: $700</p>
+            <p>Culpa alias, consectetur adipisci a molestiae rerum nesciunt repellendus. Explicabo beatae ea maxime repellendus molestias quis excepturi optio error dolores, quae distinctio eveniet dolore enim.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 8</h3>
+            <p>Price: $800</p>
+            <p>Fugit illo velit deleniti aspernatur eius dolores molestias hic suscipit, perspiciatis dolorum rerum, odit eveniet magnam culpa itaque, quia ullam. In ipsam quos consectetur asperiores!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 9</h3>
+            <p>Price: $900</p>
+            <p>Eaque, fugiat facere. Excepturi nostrum tenetur, provident dolorem vero quam laudantium accusantium itaque dolorum reiciendis quas rem corrupti, recusandae earum! Deleniti vel vitae perferendis fuga!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 10</h3>
+            <p>Price: $1000</p>
+            <p>Sit labore quam fugit deleniti saepe! Nobis, sequi. Accusamus iusto recusandae amet repellat ex maiores perspiciatis illum, fugiat architecto voluptates magnam alias excepturi, fugit laboriosam.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 11</h3>
+            <p>Price: $1100</p>
+            <p>Tenetur modi dolor cupiditate dignissimos odit labore tempore nemo reiciendis similique dolorum, a fuga quis nostrum perspiciatis veniam nihil harum accusamus eligendi, iure pariatur nisi?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="assats/food.jpg" alt="">
+            <h3>Food Itam - 12</h3>
+            <p>Price: $1200</p>
+            <p>Tenetur, consequatur rem nesciunt odit cumque quo optio iste porro commodi laboriosam, incidunt doloremque! Accusamus vitae illo ducimus dolore aliquam temporibus corporis ratione quae exercitationem.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
