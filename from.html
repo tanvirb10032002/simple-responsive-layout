@@ -13,6 +13,14 @@
             text-decoration: none;
             color: black;
         }
+        .login-form{
+           display: flex;
+           flex-direction: column; 
+        }
+        .login-form input{
+            padding: 10px;
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
@@ -26,10 +34,10 @@
         <a href="#">Login</a>
     </nav>
 
-    <form action="">
+    <form class="login-form">
         <H3>Please Login</H3>
-        <input type="email" name="" id="" placeholder="Enter Your Email">
-        <input type="password" name="" id="" placeholder="Enter Your Password">
+        <input type="email" name="" id="" placeholder="Enter Your Email" required>
+        <input type="password" name="" id="" placeholder="Enter Your Password" required>
         <input type="submit" value="Submit">
     </form>
 </body>
