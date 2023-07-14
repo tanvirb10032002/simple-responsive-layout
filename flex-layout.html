@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Layout</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid;
+            justify-content: ;
+        }
+        .box{
+            background-color: antiquewhite;
+            /* height: 100px; */
+            min-height: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        #box-1{
+            background-color: rgb(155, 159, 159);
+            width: 30%;
+        }
+        #box-2{
+            width: 70%;
+        }
+
+        .con2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .item {
+        border: 1px solid red;
+
+        }
+
+        @media screen and (max-width: 700px) {
+           .container{
+            display: grid;
+           } 
+           #box-1{
+             width: 97%;
+             min-height: 150px;
+           }
+           #box-2{
+            width: 97%;
+           }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Making a Responsive Flex-Layout</h1>
+    <div class="container">
+        <div class="box" id="box-1">Box-1</div>
+        <div class="box" id="box-2">Box-2</div>
+    </div>
+    <div class="con2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>
